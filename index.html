@@ -46,46 +46,64 @@
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                <li class="nav-item">
+                    <a class="nav-link claims-button" aria-current="page" href="#header">Claims</a>
+                </li>
+            </ul>
 
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#header">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Services</a>
-                        
+                    <li class="nav-item dropdown"> 
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">About</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="#">Contractors</a></li>
-                            <li><a class="dropdown-item" href="#">Financial institutions</a></li>
-                            <li><a class="dropdown-item" href="#">Garage Package</a></li>
-                            <li><a class="dropdown-item" href="#">Grocery Stores</a></li>
-                            <li><a class="dropdown-item" href="#">Healthcare</a></li>
-                            <li><a class="dropdown-item" href="#">Hospitality</a></li>
-                            <li><a class="dropdown-item" href="#">Landscapers</a></li>
-                            <li><a class="dropdown-item" href="#">Manufacturing</a></li>
-                            <li><a class="dropdown-item" href="#">Non-profit</a></li>
-                            <li><a class="dropdown-item" href="#">Personal Auto</a></li>
-                            <li><a class="dropdown-item" href="#">Professional Liability</a></li>
+                            <div class="dropdown-column">
+                                <li><a class="dropdown-item" href="#about">Overview of the company</a></li>
+                                <li><a class="dropdown-item" href="business-value-chain.html">Business value chain</a></li>
+                                <li><a class="dropdown-item" href="how-fronting-works.html">How fronting works</a></li>
+                                <li><a class="dropdown-item" href="news.html">News</a></li>
+                            </div>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#plans">Plans</a>
-                    </li>
+                    
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Industries</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01" >
+                            <div class="dropdown-column">
+                                <li><a class="dropdown-item" href="contractors.html">Contractors</a></li>
+                                <li><a class="dropdown-item" href="financial-institutions.html">Financial Institutions</a></li>
+                                <li><a class="dropdown-item" href="garage-package.html">Garage Package</a></li>
+                                <li><a class="dropdown-item" href="grocery-stores.html">Grocery Stores</a></li>
+                                <li><a class="dropdown-item" href="healthcare.html">Healthcare</a></li>
+                                <li><a class="dropdown-item" href="hospitality.html">Hospitality</a></li>
+                                <li><a class="dropdown-item" href="landscapers.html">Landscapers</a></li>
+                                <li><a class="dropdown-item" href="manufacturing.html">Manufacturing</a></li>
+                                <li><a class="dropdown-item" href="non-profit.html">Non-profit</a></li>
+                               
+                            </div>
+                            <div class="dropdown-column">
+                               
+                                <li><a class="dropdown-item" href="personal-auto.html">Personal Auto</a></li>
+                                <li><a class="dropdown-item" href="professional-liability.html">Professional Liability</a></li>
+                                <li><a class="dropdown-item" href="restaurants.html">Restaurants</a></li>
+                                <li><a class="dropdown-item" href="retail.html">Retail</a></li>
+                                <li><a class="dropdown-item" href="schools.html">Schools</a></li>
+                                <li><a class="dropdown-item" href="towing.html">Towing</a></li>
+                                <li><a class="dropdown-item" href="trucking.html">Trucking</a></li>
+                                <li><a class="dropdown-item" href="wholesale.html">Wholesale</a></li>
+                            </div>
                         
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
                         </ul>
                     </li>
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plans">Careers</a>
+                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
@@ -168,7 +186,7 @@
                         </p>
 
                     <div class="my-3">
-                        <a class="btn" href="#your-link">Learn More</a>
+                        <a class="btn" href="#services">Learn More</a>
                     </div>
                 </div>
                 <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
@@ -230,97 +248,79 @@
 
 
     <!-- Plans -->
-    <section class="plans d-flex align-items-center py-5" id="plans">
-        <div class="container text-light" >
+    <section class="plans d-flex align-items-center py-5" id="distinguishing-factors">
+        <div class="container text-light">
             <div class="text-center pb-4">
-                <p>OUR PLANS</p>
-                <h2 class="py-2">Explore unlimited possibilities</h2>
-                <p class="para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
+                <p>OUR DISTINGUISHING FACTORS</p>
+                <h2 class="py-2">What Sets Us Apart</h2>
+                <p class="para-light">Our commitment to excellence is rooted in industry expertise, financial strength, and broad reach. We are dedicated to providing the highest quality services with a focus on long-term success.</h2
+                    >
             </div>
             <div class="row gy-4" data-aos="zoom-in">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="card bg-transparent px-4">
-                        <h4 class="py-2">BASIC BUNDLE</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="py-2">Seasoned Leadership</h4>
+                        <p class="py-3">Our leadership team is composed of highly experienced professionals who bring deep industry knowledge and strategic insight.</p>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Decades of leadership experience in insurance, underwriting, and risk management.</p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Proven track record of guiding businesses through complex industry landscapes.</p>
                         </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <h4 class="py-3">$24/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>
-                        </div>
-                    </div>  
+                    </div>
                 </div>
-
-                <div class="col-lg-4">
+    
+                <div class="col-lg-6">
                     <div class="card bg-transparent px-4">
-                        <h4 class="py-2">BUSINESS BUNDLE</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="py-2">Strong Underwriting and Actuarial Acumen</h4>
+                        <p class="py-3">We excel in underwriting and actuarial services, ensuring sound risk assessment and financial stability.</p>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Expertise in developing tailored risk models to meet specific client needs.</p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Robust actuarial frameworks that deliver predictive accuracy and financial insight.</p>
                         </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <h4 class="py-3">$99/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>
-                        </div>
-                    </div>  
+                    </div>
                 </div>
-
-                <div class="col-lg-4">
-                    <div class="card bg-transparent px-4" >
-                        <h4 class="py-2">PREMIUM BUNDLE</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+                <div class="col-lg-6">
+                    <div class="card bg-transparent px-4">
+                        <h4 class="py-2">A- VII (Excellent) Rated by AM Best</h4>
+                        <p class="py-3">We are proud to hold an A- VII (Excellent) rating from AM Best, reflecting our financial strength and operational performance.</p>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>AM Best ratings indicate our stability and reliability in the marketplace.</p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Recognition of our ability to meet ongoing insurance obligations to policyholders.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-6">
+                    <div class="card bg-transparent px-4">
+                        <h4 class="py-2">Ability to Write in 47 States</h4>
+                        <p class="py-3">Our expansive coverage across 47 states enables us to provide comprehensive insurance solutions nationwide.</p>
+                        <div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Licensed and equipped to serve clients with diverse needs across the country.</p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Supporting businesses with a strong local presence and nationwide reach.</p>
                         </div>
-                        <h4 class="py-3">$199/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>                    
-                        </div>
-                    </div>  
+                    </div>
                 </div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </section> <!-- end of plans -->
+    </section>
+    
+    <!-- end of plans -->
 
 
     <!-- Work -->

@@ -119,6 +119,25 @@ li {
 }
 
 
+
+
+.two-column-dropdown {
+    display: grid !important; /* Use grid layout for precise column control */
+    grid-template-columns: repeat(3, 1fr) !important; /* Create 2 equal-width columns */
+    gap: 10px !important; /* Space between items */
+    padding: 10px !important; /* Padding inside dropdown */
+    background-color: var(--bs-light) !important; /* Background for dropdown */
+    border: none !important; /* Remove border */
+    transition: 0.5s !important; /* Smooth transition */
+}
+
+.two-column-dropdown .dropdown-item {
+    padding: 8px 15px !important; /* Padding for each dropdown item */
+    text-align: left !important;
+    white-space: nowrap !important; /* Ensure text doesn't wrap */
+}
+
+
 .fas.fa-home {
     color: #5a615c !important;  /* Change to the desired color */
 }
@@ -221,7 +240,96 @@ li {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 	background-color: #e6ecf3;
+	display: none;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */
+    column-gap: 20px;
+    padding: 20px;
+	transition: opacity 0.5s ease;
+	opacity: 1;
+	width: 200px;
+	top: 100%;
 }
+
+.dropdown-column {
+    display: flex;
+    flex-direction: column;
+}
+.navbar .dropdown:hover .dropdown-menu,
+.nav-item.dropdown:hover .dropdown-menu {
+    display: grid; /* Keep the grid layout you already have */
+}
+
+
+/* Style for Claims button */
+.claims-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-weight: bold;
+    color: #fff; /* Text color */
+    background-color:#00dabf; /* Button background color */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.claims-button:hover {
+    background-color: #00dabf; /* Darker background on hover */
+    color: #fff; /* Ensure text remains visible */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Optional: Add a shadow effect for more style */
+.claims-button:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* For larger screens (hover) */
+/* For larger screens (desktop and tablet) */
+@media (min-width: 768px) {
+    /* Hide dropdown by default */
+    .navbar .dropdown-menu {
+        display: none;
+        width: auto; /* Keep the auto width for desktop */
+        margin-left: -116px; /* Align the dropdown properly for desktop */
+    }
+
+    /* Show dropdown on hover */
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: grid; /* Keep the grid layout */
+    }
+}
+
+/* For mobile devices (phones, smaller screens) */
+@media (max-width: 767px) {
+    /* Ensure the dropdown works with Bootstrap's click-to-open behavior */
+    .navbar .dropdown-menu {
+        display: none; /* Hide dropdown initially */
+        position: static; /* Ensure it's positioned properly for mobile */
+        background-color: #e6ecf3;
+        width: 100%; /* Remove auto width */
+        margin-left: 0; /* Remove negative margin */
+    }
+
+    /* When the dropdown is opened (Bootstrap adds 'show' class) */
+    .nav-item.dropdown.show .dropdown-menu {
+        display: grid; /* Use grid layout for the items */
+        grid-template-columns: repeat(1, 1fr); /* Single column for mobile */
+        padding: 0.5rem;
+    }
+
+    /* Add padding for better touch interaction */
+    .dropdown-item {
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+
+
 
 .navbar .dropdown-item {
 	color: #1d1a1a;
