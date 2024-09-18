@@ -782,7 +782,8 @@ li {
 		box-shadow: none;
 		transition: all 0.2s;
 		padding-top: 1.75rem;
-		background-color: transparent;
+		/* background-color: transparent; */
+		background-color: #899d97;
 	}
 
 	.navbar.top-nav-collapse {
@@ -863,4 +864,16 @@ li {
 		width: 22px;
 		background-size: 22px 34px;
 	}
+}
+
+.contractor-section{
+	/* background-color:#e4ebf2" */
+	background-color: var(--primary);
+}
+
+.contractor-section-type-o-i-c{
+	font-weight: 500;
+    line-height: 1rem;
+	font-size: 1.575rem;
+    text-decoration: none;
 }
