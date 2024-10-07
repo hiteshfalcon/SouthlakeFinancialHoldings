@@ -1,0 +1,131 @@
+.contractor-section {
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding: 50px 20px 50px 0px;
+    /* background-image: url(../assets/images/contact1.jpg); */
+
+   
+    background-color: #e4ebf2 !important;
+    /* border-bottom: 2px solid white; */
+    
+    
+}
+
+.contractor-parent-box {
+    margin-left: 10px;
+    box-shadow: 3px 3px 2px 0px rgba(146, 151, 156, 1);
+}
+
+.contractor-header-text {
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.types-section {
+    background-color: #e4ebf2 !important;
+}
+
+/* <!-- Workers’ Compensation Block --> */
+.workers-compensation-block {
+    
+    max-height: 100vh;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    background-image: url(../assets/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 3px solid white;
+    overflow: hidden;
+    
+}
+
+.workers-compensation-block .section-one .empty-span {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(to right, #dee9f2, #e4ebf2);
+    height: 100%;
+    margin-left: -2px;
+}
+
+
+
+.workers-compensation-block .section-one .img-container {
+    position: relative;
+}
+
+.workers-compensation-block .section-one .img-container img {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 270px;
+}
+
+.workers-compensation-block .section-two {
+    margin-left: auto;
+    z-index: 1;
+    border-left: 3px solid #899d97;
+}
+
+.workers-compensation-block .section-two h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.workers-compensation-block .section-two p {
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    /* color: #34495e; */
+    color: #011325;
+    line-height: 1.6;
+}
+
+
+
+/* <!-- General Liability Insurance Block --> */
+
+
+
+
+@media (max-width: 767px) {
+
+    .workers-compensation-block .section-two {
+        margin-left: auto;
+        z-index: 1;
+        border-right: 3px solid #719288;
+        border-left: 3px solid transparent;
+        border-top: 3px solid #719288;
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+
+    .workers-compensation-block .section-one .empty-span {
+        border-top-left-radius: 10px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        background: linear-gradient(to bottom, #899d97, #d3ddbb);
+        height: 40%;
+        border-top-right-radius: 10px;
+       
+    }
+
+    .workers-compensation-block {
+        border-top-right-radius: 10px;
+        
+    }
+
+}

@@ -28,7 +28,7 @@
     <link href="{{ url('public/css/aos.min.css') }}" rel="stylesheet">
     <link href="{{ url('public/css/swiper.css') }}" rel="stylesheet">
     <link href="{{ url('public/css/style.css') }}" rel="stylesheet">
-
+    <link href="{{ url('public/css/newcontractor.blade.css') }}" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" href="{{ url('public/assets/images/favicon.png') }}">
 </head>
@@ -53,7 +53,7 @@
                         <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">About</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
                             <div class="dropdown-column">
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="window.location.href='{{ url('/') }}#about'">Overview of the company</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="window.location.href='{{ url('/') }}#about'">Overview</a></li>
                                 <li><a class="dropdown-item" href="javascript:void(0);" onclick="window.location.href='{{ url('/') }}#valuechain'">Business value chain</a></li>
                                 <li><a class="dropdown-item" href="javascript:void(0);" onclick="window.location.href='{{ url('/') }}#fronting'">How fronting works</a></li>
                                 <li><a class="dropdown-item" href="news.html">News</a></li>

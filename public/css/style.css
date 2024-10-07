@@ -18,28 +18,28 @@ Table Of Contents:
 /* ===============new desing css========== */
 
 .contractor-section .btn-primary {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    padding: 10px 30px;
+	margin-top: 20px;
+	font-size: 1.2rem;
+	padding: 10px 30px;
 }
 
 .insurance-coverages h2 {
-    text-align: center;
-    margin-bottom: 40px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 .insurance-coverages .row {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .insurance-coverages img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
 }
 
 .insurance-coverages p {
-    font-size: 1.1rem;
+	font-size: 1.1rem;
 }
 
 .category-box {
@@ -70,11 +70,12 @@ Table Of Contents:
 	color: #555;
 }
 
-
 .category-box {
-	border: 1px solid grey; /* Set border to gray */
+	border: 1px solid grey;
+	/* Set border to gray */
 	padding: 20px;
-	background-color: rgb(215, 214, 213); /* Peach background color */
+	background-color: rgb(215, 214, 213);
+	/* Peach background color */
 	border-radius: 8px;
 	transition: box-shadow 0.3s ease;
 }
@@ -154,31 +155,29 @@ a {
 }
 
 li {
-  	list-style-type: none;
+	list-style-type: none;
 }
 
 /* Section Background */
 .home,
 .about,
-
 .work,
 .contact {
 	height: 110vh;
 	position: relative;
 }
 
-.services{
+.services {
 	height: 90vh;
 	position: relative;
 }
-.claimss
-	{
-		height:  75vh;
-		position: relative;
-	}
 
+.claimss {
+	min-height: 99vh;
+	position: relative;
+}
 
-.plans{
+.plans {
 	height: 140vh;
 	position: relative;
 }
@@ -188,11 +187,11 @@ li {
 .work,
 .contact,
 .testimonial {
-  	background-color: var(--primary);
+	background-color: var(--primary);
 }
 
 .footer {
-	background-color: #899d97
+	background-color: #899d97;
 }
 
 .about,
@@ -200,11 +199,11 @@ li {
 .company,
 .newsletter,
 .location {
-  	background-color: var(--primary-light);
+	background-color: var(--primary-light);
 }
 
 .bottom {
-  	background-color: #899d97;
+	background-color: #899d97;
 }
 
 /* Gradient Border And Background On Icons */
@@ -218,70 +217,72 @@ li {
 .location .far,
 .location .fas {
 	padding: 15px 0;
-	background: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(#718376),
-		to(#5b6e6c)
-	);
+	background: -webkit-gradient(linear,
+			left top,
+			left bottom,
+			from(#718376),
+			to(#5b6e6c));
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-
-
-
 .two-column-dropdown {
-    display: grid !important; /* Use grid layout for precise column control */
-    grid-template-columns: repeat(3, 1fr) !important; /* Create 2 equal-width columns */
-    gap: 10px !important; /* Space between items */
-    padding: 10px !important; /* Padding inside dropdown */
-    background-color: var(--bs-light) !important; /* Background for dropdown */
-    border: none !important; /* Remove border */
-    transition: 0.5s !important; /* Smooth transition */
+	display: grid !important;
+	/* Use grid layout for precise column control */
+	grid-template-columns: repeat(3,
+			1fr) !important;
+	/* Create 2 equal-width columns */
+	gap: 10px !important;
+	/* Space between items */
+	padding: 10px !important;
+	/* Padding inside dropdown */
+	background-color: var(--bs-light) !important;
+	/* Background for dropdown */
+	border: none !important;
+	/* Remove border */
+	transition: 0.5s !important;
+	/* Smooth transition */
 }
 
 .two-column-dropdown .dropdown-item {
-    padding: 8px 15px !important; /* Padding for each dropdown item */
-    text-align: left !important;
-    white-space: nowrap !important; /* Ensure text doesn't wrap */
+	padding: 8px 15px !important;
+	/* Padding for each dropdown item */
+	text-align: left !important;
+	white-space: nowrap !important;
+	/* Ensure text doesn't wrap */
 }
-
 
 .fas.fa-home {
-    color: #5a615c !important;  /* Change to the desired color */
+	color: #5a615c !important;
+	/* Change to the desired color */
 }
+
 .card .fas.fa-home {
-    color: #5a615c !important; /* Home icon */
+	color: #5a615c !important;
+	/* Home icon */
 }
 
 .fa-facebook-f:before {
-    content: "\f39e";  /* Font Awesome code for Facebook */
-    color: #3b5998;    /* Facebook blue color */
-    font-size: 24px;   /* Adjust font size */
+	content: "\f39e";
+	/* Font Awesome code for Facebook */
+	color: #3b5998;
+	/* Facebook blue color */
+	font-size: 24px;
+	/* Adjust font size */
 }
 
-
-
-
-.home_text{
+.home_text {
 	padding: 15px 0;
-	background: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(#515d55),
-		to(#00dabf)
-	);
+	background: -webkit-gradient(linear,
+			left top,
+			left bottom,
+			from(#515d55),
+			to(#00dabf));
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
-
-
 
 .navbar-nav a:hover,
 .footer a:hover,
@@ -293,9 +294,11 @@ li {
 	-webkit-text-fill-color: transparent;
 }
 
-.navbar .logo-text, .navbar .nav-link {
-    color: grey;
-    transition: color 0.3s ease; /* Smooth transition */
+.navbar .logo-text,
+.navbar .nav-link {
+	color: grey;
+	transition: color 0.3s ease;
+	/* Smooth transition */
 }
 
 /**********************/
@@ -330,7 +333,8 @@ li {
 
 .offcanvas-collapse {
 	position: fixed;
-	top: 5.75rem; /* adjusts the height between the top of the page and the offcanvas menu */
+	top: 5.75rem;
+	/* adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
 	width: 100%;
@@ -358,9 +362,10 @@ li {
 	margin-bottom: 0.25rem;
 	background-color: #e6ecf3;
 	display: none;
-    grid-template-columns: repeat(2, 1fr); /* 3 columns */
-    column-gap: 20px;
-    padding: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	/* 3 columns */
+	column-gap: 20px;
+	padding: 20px;
 	transition: opacity 0.5s ease;
 	opacity: 1;
 	width: 200px;
@@ -368,117 +373,140 @@ li {
 }
 
 .dropdown-column {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
+
 .navbar .dropdown:hover .dropdown-menu,
 .nav-item.dropdown:hover .dropdown-menu {
-    display: grid; /* Keep the grid layout you already have */
+	display: grid;
+	/* Keep the grid layout you already have */
 }
 
 @media (max-width: 768px) {
-    .navbar .dropdown-menu {
-        grid-template-columns: 1fr; /* Single column */
-        column-gap: 0; /* No gap for single column */
-        width: 100%; /* Full width for mobile */
-        padding: 10px; /* Adjust padding for mobile */
-    }
+	.navbar .dropdown-menu {
+		grid-template-columns: 1fr;
+		/* Single column */
+		column-gap: 0;
+		/* No gap for single column */
+		width: 100%;
+		/* Full width for mobile */
+		padding: 10px;
+		/* Adjust padding for mobile */
+	}
 
-    /* Optional: Make the dropdown items take up the full width */
-    .navbar .dropdown-item {
-        width: 100%;
-        text-align: left; /* Align text to the left */
-    }
+	/* Optional: Make the dropdown items take up the full width */
+	.navbar .dropdown-item {
+		width: 100%;
+		text-align: left;
+		/* Align text to the left */
+	}
 }
-
 
 /* Style for Claims button */
 .claims-button {
-    display: inline-block;
-    padding: 10px 20px; /* Adjust padding as needed */
-    font-weight: bold;
-    color: #fff; /* Text color */
-    background-color:#00dabf; /* Button background color */
-    border: none;
-    border-radius: 25px; /* Rounded corners */
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
+	display: inline-block;
+	padding: 10px 20px;
+	/* Adjust padding as needed */
+	font-weight: bold;
+	color: #fff;
+	/* Text color */
+	background-color: #00dabf;
+	/* Button background color */
+	border: none;
+	border-radius: 25px;
+	/* Rounded corners */
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 .claims-button:hover {
-    background-color: #f3f6f5; /* Darker background on hover */
-    color: #fff; /* Ensure text remains visible */
-    text-decoration: none; /* Remove underline on hover */
+	background-color: #f3f6f5;
+	/* Darker background on hover */
+	color: #fff;
+	/* Ensure text remains visible */
+	text-decoration: none;
+	/* Remove underline on hover */
 }
 
 /* Optional: Add a shadow effect for more style */
 .claims-button:focus {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {
-    .claims-button {
-        display: inline-block;
-        padding: 8px 15px; /* Reduced padding for mobile */
-        font-size: 14px; /* Smaller font size */
-        font-weight: bold;
-        color: #fff; /* Text color */
-        background-color: #00dabf; /* Button background color */
-        border: none;
-		width:60px;
-        border-radius: 10px; /* Slightly smaller rounded corners */
-        text-align: center;
-        text-decoration: none;
-        transition: background-color 0.3s, color 0.3s;
-    }
+	.claims-button {
+		display: inline-block;
+		padding: 8px 15px;
+		/* Reduced padding for mobile */
+		font-size: 14px;
+		/* Smaller font size */
+		font-weight: bold;
+		color: #fff;
+		/* Text color */
+		background-color: #00dabf;
+		/* Button background color */
+		border: none;
+		width: 60px;
+		border-radius: 10px;
+		/* Slightly smaller rounded corners */
+		text-align: center;
+		text-decoration: none;
+		transition: background-color 0.3s, color 0.3s;
+	}
 }
-
-
-
 
 /* For larger screens (hover) */
 /* For larger screens (desktop and tablet) */
 @media (min-width: 768px) {
-    /* Hide dropdown by default */
-    .navbar .dropdown-menu {
-        display: none;
-        width: auto; /* Keep the auto width for desktop */
-        margin-left: -116px; /* Align the dropdown properly for desktop */
-    }
 
-    /* Show dropdown on hover */
-    .nav-item.dropdown:hover .dropdown-menu {
-        display: grid; /* Keep the grid layout */
-    }
+	/* Hide dropdown by default */
+	.navbar .dropdown-menu {
+		display: none;
+		width: auto;
+		/* Keep the auto width for desktop */
+		margin-left: -116px;
+		/* Align the dropdown properly for desktop */
+	}
+
+	/* Show dropdown on hover */
+	.nav-item.dropdown:hover .dropdown-menu {
+		display: grid;
+		/* Keep the grid layout */
+	}
 }
 
 /* For mobile devices (phones, smaller screens) */
 @media (max-width: 767px) {
-    /* Ensure the dropdown works with Bootstrap's click-to-open behavior */
-    .navbar .dropdown-menu {
-        display: none; /* Hide dropdown initially */
-        position: static; /* Ensure it's positioned properly for mobile */
-        background-color: #e6ecf3;
-        width: 100%; /* Remove auto width */
-        margin-left: 0; /* Remove negative margin */
-    }
 
-    /* When the dropdown is opened (Bootstrap adds 'show' class) */
-    .nav-item.dropdown.show .dropdown-menu {
-        display: grid; /* Use grid layout for the items */
-        grid-template-columns: repeat(1, 1fr); /* Single column for mobile */
-        padding: 0.5rem;
-    }
+	/* Ensure the dropdown works with Bootstrap's click-to-open behavior */
+	.navbar .dropdown-menu {
+		display: none;
+		/* Hide dropdown initially */
+		position: static;
+		/* Ensure it's positioned properly for mobile */
+		background-color: #e6ecf3;
+		width: 100%;
+		/* Remove auto width */
+		margin-left: 0;
+		/* Remove negative margin */
+	}
 
-    /* Add padding for better touch interaction */
-    .dropdown-item {
-        padding: 0.75rem 1.5rem;
-    }
+	/* When the dropdown is opened (Bootstrap adds 'show' class) */
+	.nav-item.dropdown.show .dropdown-menu {
+		display: grid;
+		/* Use grid layout for the items */
+		grid-template-columns: repeat(1, 1fr);
+		/* Single column for mobile */
+		padding: 0.5rem;
+	}
+
+	/* Add padding for better touch interaction */
+	.dropdown-item {
+		padding: 0.75rem 1.5rem;
+	}
 }
-
-
-
 
 .navbar .dropdown-item {
 	color: #1d1a1a;
@@ -491,7 +519,7 @@ li {
 }
 
 .navbar .dropdown-item:hover {
-  	background-color: var(--primary);
+	background-color: var(--primary);
 }
 
 .navbar .dropdown-divider {
@@ -517,13 +545,11 @@ li {
 }
 
 .navbar .fa-stack-2x {
-	background: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(#899d97),
-		to(#00dabf)
-	);
+	background: -webkit-gradient(linear,
+			left top,
+			left bottom,
+			from(#899d97),
+			to(#00dabf));
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -536,11 +562,11 @@ li {
 }
 
 .navbar .fa-stack:hover .fa-stack-2x {
-  	color: var(--primary);
+	color: var(--primary);
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
-  	color: var(--primary);
+	color: var(--primary);
 }
 
 .navbar .navbar-toggler {
@@ -548,7 +574,6 @@ li {
 	border: none;
 	font-size: 1.25rem;
 }
-
 
 /****************/
 /*     Home     */
@@ -562,29 +587,27 @@ li {
 }
 
 .para {
-  	width: 50%;
+	width: 50%;
 }
 
 .para-light {
-  	opacity: 0.7;
+	opacity: 0.7;
 }
-
 
 /***********************/
 /*     Information     */
 /***********************/
 .information .container-fluid .row div:first-child {
-  	background-color: var(--primary);
+	background-color: var(--primary);
 }
 
 .information .container-fluid .row div:last-child {
-  	background-color: white;
+	background-color: white;
 }
 
 .information .container-fluid .row div:nth-child(2) {
-  	background-color: var(--primary-light);
+	background-color: var(--primary-light);
 }
-
 
 /******************/
 /*     Button     */
@@ -647,7 +670,6 @@ li {
 	transform: translate(5px, 5px);
 }
 
-
 /********************/
 /*     Services     */
 /********************/
@@ -656,7 +678,6 @@ li {
 	border-radius: 0;
 	border: 2px solid white;
 }
-
 
 .services .card:hover {
 	border: 10px solid;
@@ -667,7 +688,6 @@ li {
 	box-shadow: 5px 5px 0px 0px #899d97;
 }
 
-
 /********************/
 /*     claims     */
 /********************/
@@ -676,14 +696,14 @@ li {
 	border-radius: 0;
 	border: 2px solid white;
 	height: 150px;
-	display: flex;                  /* Enable flexbox */
-    justify-content: center;         /* Center horizontally */
-    align-items: center;             /* Center vertically */
-    text-align: center; 
-	
+	display: flex;
+	/* Enable flexbox */
+	justify-content: center;
+	/* Center horizontally */
+	align-items: center;
+	/* Center vertically */
+	text-align: center;
 }
-
-
 
 .claimss .card:hover {
 	border: 10px solid;
@@ -692,43 +712,43 @@ li {
 	border-width: 2px;
 	border-image-source: var(--gradient);
 	box-shadow: 5px 5px 0px 0px #899d97;
-    
 }
 
+.fixed-buttons {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: flex;
+	flex-direction: row;
+	/* Changed to row to display side by side */
+	gap: 10px;
+	/* Adds some space between the buttons */
+	z-index: 1000;
+}
 
- .fixed-buttons {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        display: flex;
-        flex-direction: row; /* Changed to row to display side by side */
-        gap: 10px; /* Adds some space between the buttons */
-        z-index: 1000;
-    }
+.fixed-buttons a {
+	width: 250px;
+	padding: 15px;
+	text-align: center;
+	font-size: 1.25rem;
+	border-radius: 10px;
+}
 
-    .fixed-buttons a {
-        width: 250px;
-        padding: 15px;
-        text-align: center;
-        font-size: 1.25rem;
-        border-radius: 10px;
-    }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.fixed-buttons a {
+		width: 200px;
+		font-size: 1rem;
+	}
+}
 
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-        .fixed-buttons a {
-            width: 200px;
-            font-size: 1rem;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .fixed-buttons a {
-            width: 150px;
-            font-size: 0.9rem;
-            padding: 10px;
-        }
-    }
+@media (max-width: 576px) {
+	.fixed-buttons a {
+		width: 150px;
+		font-size: 0.9rem;
+		padding: 10px;
+	}
+}
 
 /*****************/
 /*     Plans     */
@@ -737,7 +757,6 @@ li {
 	padding: 20px;
 	border: 2px solid white;
 }
-
 
 /************************/
 /*     Testimonials     */
@@ -748,7 +767,7 @@ li {
 }
 
 .slider-1 .section-title {
-  	text-align: center;
+	text-align: center;
 }
 
 .slider-1 .h2-heading {
@@ -764,7 +783,7 @@ li {
 }
 
 .slider-1 .slider-container {
-  	position: relative;
+	position: relative;
 }
 
 .slider-1 .swiper-container {
@@ -774,7 +793,7 @@ li {
 
 .slider-1 .swiper-button-prev,
 .slider-1 .swiper-button-next {
-  	color: var(--primary);
+	color: var(--primary);
 }
 
 .slider-1 .swiper-button-prev:focus,
@@ -811,11 +830,11 @@ li {
 }
 
 .slider-1 .card-body {
-  	padding: 0;
+	padding: 0;
 }
 
 .slider-1 .testimonial-text {
-  	margin-bottom: 0.75rem;
+	margin-bottom: 0.75rem;
 }
 
 .slider-1 .testimonial-author {
@@ -831,7 +850,8 @@ li {
 
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
-  	animation: fadeDropdown 0.2s; /* required for the fade animation */
+	animation: fadeDropdown 0.2s;
+	/* required for the fade animation */
 }
 
 @-webkit-keyframes fadeDropdown {
@@ -854,7 +874,6 @@ li {
 	}
 }
 
-
 /**********************/
 /*     Newsletter     */
 /**********************/
@@ -869,7 +888,6 @@ li {
 	padding-top: 0.775rem;
 	padding-bottom: 0.775rem;
 }
-
 
 /******************************/
 /*     Back To Top Button     */
@@ -890,7 +908,7 @@ li {
 }
 
 #myBtn:hover {
-  	background-color: #0f0f11;
+	background-color: #0f0f11;
 }
 
 #myBtn img {
@@ -898,7 +916,6 @@ li {
 	margin-left: 0.125rem;
 	margin-bottom: 0.25rem;
 }
-
 
 /***********************/
 /*     Extra Pages     */
@@ -910,7 +927,7 @@ li {
 }
 
 .ex-header h1 {
-  	color: #fff;
+	color: #fff;
 }
 
 .ex-basic-1 .list-unstyled .fas {
@@ -919,7 +936,7 @@ li {
 }
 
 .ex-basic-1 .list-unstyled .flex-grow-1 {
-  	margin-left: 0.5rem;
+	margin-left: 0.5rem;
 }
 
 .ex-basic-1 .text-box {
@@ -938,7 +955,7 @@ li {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-  	color: var(--secondary);
+	color: var(--secondary);
 }
 
 .ex-cards-1 .card .fa-stack-1x {
@@ -949,7 +966,7 @@ li {
 }
 
 .ex-cards-1 .card .list-unstyled .flex-grow-1 {
-  	margin-left: 2.25rem;
+	margin-left: 2.25rem;
 }
 
 .ex-cards-1 .card .list-unstyled .flex-grow-1 h5 {
@@ -957,11 +974,11 @@ li {
 	margin-bottom: 0.5rem;
 }
 
-
 /*************************/
 /*     Media Queries     */
 /*************************/
 @media only screen and (max-width: 1024px) {
+
 	.services,
 	.work,
 	.testimonial,
@@ -993,7 +1010,7 @@ li {
 	.navbar {
 		box-shadow: none;
 		/* transition: all 0.2s; */
-		padding-top:-0.25rem
+		padding-top: -0.25rem;
 		/* background-color: transparent; */
 	}
 
@@ -1077,105 +1094,99 @@ li {
 	}
 }
 
-
-
-
-
-
 /* claims */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    color: #333;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	color: #333;
 }
 
 .claims-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 .claims-title-section {
-    text-align: center;
-    margin-bottom: 30px;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 .claims-title-section h1 {
-    font-size: 28px;
-    color: #222;
+	font-size: 28px;
+	color: #222;
 }
 
 .claims-box-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
 }
 
 .claim-card {
-    background-color: #fff;
-    border: 2px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    flex: 1 1 30%;
-    min-width: 250px;
-    transition: all 0.3s ease;
-    cursor: pointer;
+	background-color: #fff;
+	border: 2px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	flex: 1 1 30%;
+	min-width: 250px;
+	transition: all 0.3s ease;
+	cursor: pointer;
 }
 
 .claim-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .claim-card h2 {
-    font-size: 20px;
-    color: #222;
+	font-size: 20px;
+	color: #222;
 }
 
 .claim-card a {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 .claim-contact-info {
-    background-color: #fff;
-    border: 2px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
+	background-color: #fff;
+	border: 2px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
 }
 
 .claim-contact-info p {
-    font-size: 16px;
-    margin: 10px 0;
+	font-size: 16px;
+	margin: 10px 0;
 }
 
 .claim-links {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    gap: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	gap: 20px;
 }
 
 .claim-links a {
-    flex: 1;
-    background-color: #fff;
-    border: 2px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #222;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
+	flex: 1;
+	background-color: #fff;
+	border: 2px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #222;
+	transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .claim-links a:hover {
-    background-color: #eee;
-    border-color: #999;
+	background-color: #eee;
+	border-color: #999;
 }
-
 
 .form-control-input {
 	background-color: #fff;
@@ -1185,6 +1196,7 @@ body {
 	font-size: 1rem;
 	color: #495057;
 }
+
 .select2-container--default .select2-selection--single {
 	background-color: #fff;
 	border: 1px solid #ced4da;
@@ -1193,58 +1205,103 @@ body {
 	height: 40px !important;
 	font-size: 1rem;
 	color: #495057;
-	
-
 }
+
 .select2-container--default .select2-selection--single .select2-selection__rendered {
 	line-height: 1.5;
 }
+
 .select2-container--default .select2-selection--single .select2-selection__arrow {
 	height: calc(1.5em + 0.75rem + 2px);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .claims-box-section, .claim-links {
-        flex-direction: column;
-    }
 
-    .claim-card, .claim-links a {
-        flex-basis: 80%;
-    }
+	.claims-box-section,
+	.claim-links {
+		flex-direction: column;
+	}
+
+	.claim-card,
+	.claim-links a {
+		flex-basis: 80%;
+	}
 }
-
-
-
 
 /*==================================== Claims form csss============================= */
 
-
 /* Custom styling for input fields */
 .form-control-input {
-    height: 50px; /* Increased height for input boxes */
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 8px;
+	height: 50px;
+	/* Increased height for input boxes */
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 8px;
 }
 
 /* Custom styling for textarea */
 textarea.form-control-input {
-    height: 150px; /* Increased height for textarea */
+	height: 150px;
+	/* Increased height for textarea */
 }
 
 /* Styling for the submit button */
 .form-control-submit-button {
-    background-color: #6c757d; /* You can change the color */
-    color: white;
-    padding: 15px;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    width: 200px;
-    cursor: pointer;
+	background-color: #6c757d;
+	/* You can change the color */
+	color: white;
+	padding: 15px;
+	font-size: 18px;
+	border: none;
+	border-radius: 8px;
+	width: 200px;
+	cursor: pointer;
 }
 
 .form-control-submit-button:hover {
-    background-color: #5a6268;
+	background-color: #5a6268;
+}
+
+/* claimss new styling added 3-10-2024 */
+
+.claimss .report-claims {
+	position: absolute;
+	right: 20px;
+	bottom: 0 !important;
+}
+.claimss .report-claims .card{
+height: 100px;
+}
+.claimss .report-claims .col-lg-4 {
+	min-width: 400px;
+}
+
+@media (max-width: 990px) {
+	.report-claims {
+		position: relative !important;
+		right: 0 !important;
+		bottom: none;
+		float: none;
+	}
+
+	.first-row-claims-card-one .card{
+		height: 100px !important
+	}
+	.claimss .row .col h1{
+		padding-top: 20px;
+	}
+}
+
+.contact-btn:hover {
+	color: black;
+	color: black;
+	outline: black;
+	border: 2px solid black;
+	font-weight: 500;
+}
+
+.first-row-claims-card .card {
+
+	height: 250px;
 }

@@ -10,7 +10,7 @@
             <h1 class="headline1" style="color:rgb(78, 66, 89)";>Fronting <span class="home_text">Done Right:</span><br>Secure, Tailored and Dynamic</h1>
             <p class="para para-light py-3">As the national leader in fronting, Southlake Finance Holdings Company is committed to delivering unparalleled fronting solutions that empower MGAs to thrive in a complex marketplace.</p>
             <div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-laptop-house fa-lg"></i></p>
+                <!--<p class="p-2"><i class="fas fa-laptop-house fa-lg"></i></p>-->
              
             </div>
             <!-- <div class="d-flex align-items-center">
@@ -21,7 +21,7 @@
                 <a class="btn" href="#about">About US</a>
             </div>
         </div> <!-- end of container -->
-    </section> <!-- end of home -->
+    </section>  <!-- end of home -->
 
 
     <!-- Information -->
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img class="img-fluid" src="./assets/images/about.jpg" alt="about" >
+                    <img class="img-fluid" src="{{ url('public/assets/images/about.jpg') }}" alt="about" >
                 </div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -75,52 +75,53 @@
 
     <!-- Services -->
     <section class="services d-flex align-items-center py-5" id="services">
-        <div class="container text-light">
-            <div class="text-center pb-4" >
-               
-                <h2 class="py-2">Explore unlimited possibilities</h2>
-            </div>
-            <div class="row gy-4 py-2" data-aos="zoom-in">
-            <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-shield-alt fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
-                        <h4 class="py-2"style="margin-left: 49px;">Fronting Services</h4>
-                        <p class="para-light">Mitigate Risk, Maximize Opportunity with Fronting</p>
-                    </div>
+                    <div class="container text-light">
+                        <div class="text-center pb-4" >
+                        
+                            <h2 class="py-2">Explore unlimited possibilities</h2>
+                        </div>
+                        <div class="row gy-4 py-2" data-aos="zoom-in">
+                        <div class="col-lg-4">
+                                <div class="card bg-transparent">
+                                    <i class="fas fa-shield-alt fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
+                                    <h4 class="py-2"style="margin-left: 49px;">Fronting Services</h4>
+                                    <p class="para-light">Mitigate Risk, Maximize Opportunity with Fronting</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                <div class="card bg-transparent">
+                    <i class="fas fa-cogs fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
+                    <h4 class="py-2" style="margin-left: 49px;">Program Business</h4>
+                    <p class="para-light">Explore Endless Possibilities in Program Business.</p>
                 </div>
-                <div class="col-lg-4">
-    <div class="card bg-transparent">
-        <i class="fas fa-cogs fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
-        <h4 class="py-2" style="margin-left: 49px;">Program Business</h4>
-        <p class="para-light">Explore Endless Possibilities in Program Business.</p>
-    </div>
-</div>
-<div class="col-lg-4">
-    <div class="card bg-transparent">
-        <i class="fas fa-handshake fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
-        <h4 class="py-2" style="margin-left: 49px;">MGA Partnerships</h4>
-        <p class="para-light">Partner with Us to Build Your Insurance Book.</p>
-    </div>
-</div>
-<div class="col-lg-4 offset-lg-2">
-    <div class="card bg-transparent">
-        <i class="fas fa-users fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
-        <h4 class="py-2" style="margin-left: 49px;">Retail Broker Partnerships</h4>
-        <p class="para-light">Leverage the Winning Combination </p>
-    </div>
-</div>
-<div class="col-lg-4">
-    <div class="card bg-transparent">
-        <i class="fas fa-sync-alt fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
-        <h4 class="py-2" style="margin-left: 49px;">Reinsurance Services</h4>
-        <p class="para-light">Expert Reinsurance Solutions.</p>
-    </div>
-</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card bg-transparent">
+                    <i class="fas fa-handshake fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
+                    <h4 class="py-2" style="margin-left: 49px;">MGA Partnerships</h4>
+                    <p class="para-light">Partner with Us to Build Your Insurance Book.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-2">
+                <div class="card bg-transparent">
+                    <i class="fas fa-users fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
+                    <h4 class="py-2" style="margin-left: 49px;">Retail Broker Partnerships</h4>
+                    <p class="para-light">Leverage the Winning Combination </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card bg-transparent">
+                    <i class="fas fa-sync-alt fa-2x" style="color: #5a615c !important;margin-top: -16px;padding-bottom: 10px;width: 32px;margin-top: -17px;position: relative;top: 3pc;height: 52px !important;"></i>
+                    <h4 class="py-2" style="margin-left: 49px;">Reinsurance Services</h4>
+                    <p class="para-light">Expert Reinsurance Solutions.</p>
+                </div>
+            </div>
 
             </div>
             <!-- end of row -->
         </div> <!-- end of container -->
     </section> <!-- end of services -->
+   
    
 
     <!-- Plans -->
@@ -219,7 +220,7 @@
     <div class="container-fluid text-light">
         <div class="row">
             <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right">
-                <img class="img-fluid" src="./assets/images/work.jpg" alt="work">        
+                <img class="img-fluid" src="{{ url('public/assets/images/work.jpg') }}" alt="work">        
             </div>
             <div class="col-lg-6 d-flex align-items-center px-4 py-3" data-aos="">
                 <div class="row">
@@ -235,9 +236,13 @@
                             <div class="col-12 mt-4">
                                 <ul class="list-unstyled">
                                     <li><strong>Nationwide Authority:</strong> Experience unparalleled access to 'A'-rated insurance in 47 states through Southlake Financial Holdings, Westlake Specialty, and Nevada General.</li>
+                                   <hr style="  height: 2px;  margin: .3rem 0;color: inherit;background-color: currentColor;border: 0;opacity: 1.25;color: white;">
                                     <li><strong>Superior Service:</strong> We don’t just promise service; we provide it. Our team is empowered to cut through the bureaucracy and meet your needs swiftly.</li>
+                                    <hr style="  height: 2px;  margin: .3rem 0;color: inherit;background-color: currentColor;border: 0;opacity: 1.25;color: white;">
                                     <li><strong>Tailored Solutions:</strong> Your challenges are unique, and so are our solutions. We deliver personalized strategies to meet your needs.</li>
+                                    <hr style="  height: 2px;  margin: .3rem 0;color: inherit;background-color: currentColor;border: 0;opacity: 1.25;color: white;">
                                     <li><strong>Efficiency:</strong> Leverage advanced technology for maximum efficiency. Our direct collaboration model with program managers, reinsurers, and carriers offers exceptional resources and cost-effectiveness.</li>
+                                    <hr style="  height: 2px;  margin: .3rem 0;color: inherit;background-color: currentColor;border: 0;opacity: 1.25;color: white;">
                                 </ul>
                             </div>
                         </div>
@@ -310,7 +315,7 @@
                                 <div class="col-lg-4">
                                     <div class="form-group py-2">
                                         <select class="form-control form-control-input" id="stateInput" placeholder="State">
-                                            <option value=""selected >Select State</option>
+                                            <option value="" selected >Select State</option>
                                             <option value="AL">Alabama</option>
                                             <option value="AK">Alaska</option>
                                             <option value="AZ">Arizona</option>
@@ -389,7 +394,7 @@
                             </div>
                           
                             <!-- <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div> -->
-                            <div class="my-3">
+                            <div class="my-3 pb-5">
                                 <button class="btn form-control-submit-button" type="submit">SUBMIT</button>
                             </div>
                         </div>
