@@ -110,10 +110,10 @@
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5"
                     data-aos="fade-right">
-                    <div style="width:90%">
+                    <div style="width:100%">
                         <div class="text-center text-lg-start py-4 pt-lg-0">
 
-                            <h2 class="py-2">Enter the info to Check Status</h2>
+                            <h2 class="py-2" style="text-align: center;">Enter the info to Check Status</h2>
                             <!-- <p class="para-light">We’re here to help with any questions or concerns you may have. Whether you need more information or have a specific request, please don’t hesitate to reach out. Our team is dedicated to providing prompt and effective support to ensure your needs are met.</p> -->
                         </div>
                         <div>
@@ -154,7 +154,7 @@
                                     placeholder="Other Comments"></textarea>
                             </div>
                         </div>
-                        <div class="my-3">
+                        <div class="my-3"style="text-align: center;">
                             <a class="btn form-control-submit-button" href="#your-link">Submit</a>
                         </div>
                     </div> <!-- end of div -->
