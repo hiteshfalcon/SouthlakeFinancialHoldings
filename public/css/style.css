@@ -713,7 +713,14 @@ li {
 	border-image-source: var(--gradient);
 	box-shadow: 5px 5px 0px 0px #899d97;
 }
-
+.claimss .contact-claims-card:hover{
+	border: 2px solid white;
+	transform: none;
+	border-image-slice: 1;
+	border-width: 2px;
+	border-image-source:none;
+	box-shadow: none;
+}
 .fixed-buttons {
 	position: fixed;
 	bottom: 20px;
